@@ -1,0 +1,28 @@
+# Data
+data/ai4mars/
+data/ai4mars-dataset-merged-0.1/
+data/rems/*.csv
+!data/sample_rems.csv
+ornek/
+screenshots/
+
+# Models
+models/pretrained/*.pth
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+dist/
+build/
+
+# Env
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
