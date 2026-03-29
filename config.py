@@ -41,7 +41,7 @@ MARS_REFERENCE = {
 }
 
 # ── HuggingFace LLM (ücretsiz) ────────────────────────
-HF_API_TOKEN = "" # BURAYA HUGGINGFACE TOKEN'INIZI YAZIN VEYA .env DOSYASINI KULLANIN
+HF_API_TOKEN = os.getenv("HF_API_TOKEN")
 HF_MODEL_PRIMARY = "meta-llama/Llama-3.1-8B-Instruct"
 HF_MODEL_FALLBACK = "Qwen/Qwen2.5-7B-Instruct"
 LLM_MAX_TOKENS = 1500
