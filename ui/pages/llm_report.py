@@ -55,7 +55,7 @@ def render():
             interpreter = MarsInterpreter(api_token=api_token)
 
             if not interpreter.is_available():
-                st.error("LLM bağlantısı kurulamadı. Token'ı kontrol edin.")
+                st.error("LLM bağlantısı kurulamadı. Token'ı kontrol edin.\n Kullanılan yapay zeka modeli lokalde çalışanbir model olduğundan github üzerinden canlıya aldığımız bu demoda çalıştırılamıyor. ")
                 return
 
             response = interpreter.interpret(
