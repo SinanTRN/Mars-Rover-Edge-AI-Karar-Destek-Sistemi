@@ -27,7 +27,7 @@ Mars rover tarafından toplanan görüntü ve sensör verilerini rover üzerinde
 
 | Dataset | Kaynak | Kullanım |
 |---------|--------|----------|
-| **AI4Mars** | [Kaggle](https://www.kaggle.com/datasets/yash92328/ai4mars-terrainaware-autonomous-driving-on-mars) / [Zenodo](https://zenodo.org/records/15995036) | Terrain sınıflandırma (soil/bedrock/sand/big_rock) — ~32K görüntü |
+| **AI4Mars** | [Kaggle](https://www.kaggle.com/datasets/yash92328/ai4mars-terrainaware-autonomous-driving-on-mars) | Terrain sınıflandırma (soil/bedrock/sand/big_rock) — ~32K görüntü |
 | **REMS** | [NASA Mars Weather](https://mars.nasa.gov/) | Sıcaklık, basınç, UV anomali tespiti |
 
 ## 🧩 Sistem Bileşenleri
